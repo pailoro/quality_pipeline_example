@@ -1,6 +1,7 @@
 from services import service_one
 from tenacity import retry, wait_fixed, stop_after_attempt
 
+
 @retry(wait=wait_fixed(2), stop=stop_after_attempt(3))
 def test_post_structure():
     """
