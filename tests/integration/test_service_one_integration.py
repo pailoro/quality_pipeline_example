@@ -15,4 +15,3 @@ def test_post_structure():
     assert "id" in post
     assert "title" in post
     assert "body" in post
-    print(posts)
