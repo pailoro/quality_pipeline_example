@@ -66,7 +66,7 @@ jobs:
       - name: Run Functional Tests - Service Three
         run: pytest tests/functional/test_service_three_functional.py
 
-  check_service_one:
+  test_service_one:
     runs-on: ubuntu-latest
     needs: functional_tests
 
@@ -90,7 +90,7 @@ jobs:
       - name: Run Integration Tests - Service One
         run: pytest tests/integration/test_service_one_integration.py
 
-  check_service_two:
+  test__service_two:
     runs-on: ubuntu-latest
     needs: functional_tests
 
@@ -114,7 +114,7 @@ jobs:
       - name: Run Integration Tests - Service Two
         run: pytest tests/integration/test_service_two_integration.py
 
-  check_service_three:
+  test__service_three:
     runs-on: ubuntu-latest
     needs: functional_tests
 
