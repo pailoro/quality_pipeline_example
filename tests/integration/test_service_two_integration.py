@@ -1,6 +1,6 @@
 from tenacity import retry, stop_after_attempt, wait_fixed
 
-from services import service_one
+from services import service_two
 
 
 @retry(wait=wait_fixed(2), stop=stop_after_attempt(3))
