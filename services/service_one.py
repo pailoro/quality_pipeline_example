@@ -3,7 +3,7 @@ import requests
 
 def get_posts():
     """
-    Fetch posts from JSONPlaceholder API.
+    Fetch posts from JSONPlaceholder API -.
 
     Returns:
         list: A list of posts.
