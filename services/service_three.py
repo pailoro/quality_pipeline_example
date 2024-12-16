@@ -3,7 +3,7 @@ import requests
 
 def get_todos():
     """
-    Fetch todos from JSONPlaceholder API.
+    Fetch todos from JSONPlaceholder API. D
 
     Returns:
         list: A list of todos.
