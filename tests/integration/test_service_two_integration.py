@@ -6,7 +6,7 @@ from services import service_two
 @retry(wait=wait_fixed(2), stop=stop_after_attempt(3))
 def test_user_structure():
     """
-    Test the structure of a user-.
+    Test the structure of a user- Teste.
     """
     users = service_two.get_users()
     assert len(users) > 0, "The API returned an empty list of users."
